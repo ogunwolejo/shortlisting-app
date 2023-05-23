@@ -1,0 +1,39 @@
+.card-width, .button-wrapper {
+    width: 600px !important;
+}
+
+.add-icon {
+    font-size: "large" !important;
+}
+
+@media screen and (max-width:375px) {
+    .card-width, .button-wrapper {
+        width: 270px !important;
+    }
+
+    .add-icon {
+        font-size: "small" !important;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:600px) {
+    .card-width, .button-wrapper {
+        width: 290px !important;
+    }   
+
+    .add-icon {
+        font-size: "small" !important;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:900px) {
+    .card-width, .button-wrapper {
+        width: 450px !important;
+    }
+
+    .add-icon {
+        font-size: "medium" !important;
+    }
+}
+

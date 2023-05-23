@@ -1,0 +1,16 @@
+.container-box {
+    position: relative;
+    height:"100%";
+  }
+  
+  .container-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left:100%;
+    transform: translateY(-50%);
+    border-top: 10px solid transparent; /* set the border properties to create the triangle shape */
+    border-left: 10px solid #00635B;
+    border-bottom: 10px solid transparent;
+  }
